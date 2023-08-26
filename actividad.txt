@@ -1,0 +1,21 @@
+1.¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?  
+
+Los lenguajes de programación pueden ser específicos de una plataforma debido a diferencias en la arquitectura, el sistema operativo y las bibliotecas disponibles en cada sistema. Por ejemplo, un lenguaje de programación puede depender de ciertas funciones o bibliotecas que solo están disponibles en un sistema operativo particular. Además, la forma en que un lenguaje interactúa con el sistema y utiliza los recursos puede variar entre sistemas operativos. Por lo tanto, un lenguaje de programación puede estar diseñado y optimizado para funcionar en ciertos sistemas operativos y no en otros. 
+
+ 
+
+2.¿Qué tipo de máquina virtual soporta VirtualBox?  
+
+VirtualBox es una solución de virtualización de hipervisor de tipo 2, lo que significa que se ejecuta en un sistema operativo anfitrión existente. Puede crear y administrar máquinas virtuales que ejecutan varios sistemas operativos invitados, como Windows, Linux, macOS, etc. Por lo tanto, VirtualBox soporta máquinas virtuales de tipo 2, también conocidas como máquinas virtuales de software. 
+
+3.¿Qué función cumple el hypervisor en la virtualización?  
+
+ 
+
+El hypervisor es un componente fundamental en la virtualización. Es el software que permite crear y administrar múltiples máquinas virtuales en un solo servidor físico. Hay dos tipos principales de hypervisors: de tipo 1 (bare metal) y de tipo 2 (hosted). Los hypervisors de tipo 1 se ejecutan directamente sobre el hardware físico y administran los sistemas operativos invitados, mientras que los de tipo 2 se ejecutan sobre un sistema operativo anfitrión existente. 
+
+ 
+
+4.¿Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?  
+
+En general, las máquinas virtuales están aisladas entre sí. Esto significa que, si una máquina virtual se rompe o se corrompe, no debería afectar a las demás máquinas virtuales en el mismo entorno. Cada máquina virtual se ejecuta en su propio espacio virtualizado y tiene su propio sistema operativo y aplicaciones. Esto se logra a través de la tecnología de virtualización, que proporciona una capa de aislamiento entre las máquinas virtuales y el hardware físico. 
